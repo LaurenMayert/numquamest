@@ -1,0 +1,22 @@
+{
+  "name": "numquamest",
+  "version": "1.0.0",
+  "description": "A modest little Typescript helper library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LaurenMayert/numquamest.git"
+  },
+  "main": "./dist/index.js",
+  "browser": "./src/index.ts",
+  "sideEffects": false,
+  "author": "VivaEmard",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc",
+    "prepublishOnly": "npm run compile"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  },
+  "homepage": "https://github.com/LaurenMayert/numquamest.git"
+}
